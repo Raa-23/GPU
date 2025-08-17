@@ -32,6 +32,7 @@ module ALU(
     output reg [7:0] alu_out
     );
     //Division does not work here
+    //can add a overflow flag as well 
     reg N,Z,P;
     reg [15:0] product;
     reg [7:0]sum; 
